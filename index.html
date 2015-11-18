@@ -19,7 +19,8 @@
 			<div class="col-xs-4">
 				<p>col-sx-4</p>
 			</div>
-		</div>  <!-- end of xs grid -->
+		</div>  <!-- End of xs grid -->
+
 		<h2>SM (Small) Grid System</h2>
 		<div class="row show-grid">
 			<div class="col-sm-2">
@@ -37,7 +38,8 @@
 			<div class="col-sm-1 text-nowrap">
 				<p>col-sm-1</p>
 			</div> 
-		</div>	<!-- end of sm grid -->
+		</div>	<!-- End of sm grid -->
+
 		<h2>MD (Medium) Grid System</h2>
 		<div class="row show-grid">
 			<div class="col-md-2">
@@ -52,7 +54,8 @@
 			<div class="col-md-1">
 				<p>col-md-1</p>
 			</div>
-		</div>  <!-- end of md grid -->
+		</div>  <!-- End of md grid -->
+
 		<h2>LG (Large) Grid System</h2>
 		<div class="row show-grid">
 			<div class="col-lg-2">
@@ -66,8 +69,8 @@
 			</div>
 			<div class="col-lg-2">
 				<p>col-lg-2</p>
-			</div>  <!-- end of lg grid -->
-		</div>
+			</div>  
+		</div>  <!-- End of lg grid -->
 
 			<!-- start of fullgrid system -->
 		<h2>Full Grid System</h2>
@@ -92,57 +95,86 @@
 			</div>	
 		</div>	<!-- End of Full Grid -->
 
-			<h2>Column Wrapping</h2>
-			<div class="row show-grid">
-				<div class="col-md-9">
-					<p>col-md-9</p>
-				</div>
-				<div class="col-md-5">
-					<p>col-md-5</p>
-				</div>
-				<div class="col-md-5">
-					<p>col-md-5</p>
+		<h2>Column Wrapping</h2>
+		<div class="row show-grid">
+			<div class="col-md-9">
+				<p>col-md-9</p>
+			</div>
+			<div class="col-md-5">
+				<p>col-md-5</p>
+			</div>
+			<div class="col-md-5">
+				<p>col-md-5</p>
+			</div>
+		</div>
+		<div class="row show-grid">
+			<div class="col-md-2">
+				<p>col-md-2</p>
+			</div>
+		</div> <!-- End of column wrapper -->
+
+		<h2>Column Rest</h2>
+		<div class="row show-grid">
+			<div class="col-sm-6 col-md-3">
+				<p class="visible-sm">col-sm-6</p>
+				<p class="vislible-md">col-md-3</p>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero necessitatibus modi quia repellendus maiores, maxime deserunt adipisci cum recusandae odit? Tempora harum nam, delectus sit accusamus molestiae perferendis magni. Optio?</p>
+			</div>
+			<div class="col-sm-6 col-md-3">
+				<p class="visible-sm">col-sm-6</p>
+				<p class="vislible-md">col-md-3</p>
+			</div>
+			<span class="clearfix visible-sm-block"></span> <!-- forces clearfix -->
+			<div class="col-sm-6 col-md-3">
+				<p class="visible-sm">col-sm-6</p>
+				<p class="vislible-md">col-md-3</p>
+			</div>
+			<div class="col-sm-6 col-md-3">
+				<p class="visible-sm">col-sm-6</p>
+				<p class="vislible-md">col-md-3</p>
+			</div>
+		</div> <!-- End of Column Reset -->
+
+		<h2>Column Offset</h2>
+		<div class="row show-grid">
+			<div class="col-md-5">
+				<p>col-md-5</p>
+			</div>
+			<div class="col-md-2 col-md-offset-4">
+				<p>col-md-2</p>
+			</div>
+		</div>  <!-- End of Offest -->
+
+		<h2>Column Nesting</h2>
+		<div class="row show-grid">
+			<div class="col-sm-5">
+				<p>col-sm-5</p>
+			</div>
+			<div class="col-sm-7">
+				<p>col-sm-7</p>
+				<div class="row">
+					<div class="col-sm-4">
+						<p>col-sm-4</p>
+					</div>
+					<div class="col-sm-4">
+						<p>col-sm-4</p>
+					</div>
+					<div class="col-sm-4">
+						<p>col-sm-4</p>
+					</div>
 				</div>
 			</div>
-			<div class="row show-grid">
-				<div class="col-md-2">
-					<p>col-md-2</p>
-				</div>
-			</div> <!-- end of column wrapper -->
+		</div>	<!-- End of Column Nesting -->
 
-			<h2>Column Rest</h2>
-			<div class="row show-grid">
-				<div class="col-sm-6 col-md-3">
-					<p class="visible-sm">col-sm-6</p>
-					<p class="vislible-md">col-md-3</p>
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero necessitatibus modi quia repellendus maiores, maxime deserunt adipisci cum recusandae odit? Tempora harum nam, delectus sit accusamus molestiae perferendis magni. Optio?</p>
-				</div>
-				<div class="col-sm-6 col-md-3">
-					<p class="visible-sm">col-sm-6</p>
-					<p class="vislible-md">col-md-3</p>
-				</div>
-				<span class="clearfix visible-sm-block"></span> <!-- forces clearfix -->
-				<div class="col-sm-6 col-md-3">
-					<p class="visible-sm">col-sm-6</p>
-					<p class="vislible-md">col-md-3</p>
-				</div>
-				<div class="col-sm-6 col-md-3">
-					<p class="visible-sm">col-sm-6</p>
-					<p class="vislible-md">col-md-3</p>
-				</div>
-			</div> <!-- end of Column Reset -->
-
-			<h2>Column Offset</h2>
-			<div class="row show-grid">
-				<div class="col-md-5">
-					<p>col-md-5</p>
-				</div>
-				<div class="col-md-2 col-md-offset-4">
-					<p>col-md-2</p>
-				</div>
-			</div>  <!-- end of Offest -->
-
-		</div>    <!-- start of fullgrid system -->
-	</div>      <!-- end of container -->
+		<h2>Push and Pull</h2>
+		<div class="row show-grid">
+			<div class="col-sm-8 col-md-7 col-md-push-5">
+				<p>article</p>
+			</div>
+			<div class="col-sm-4 col-md5 col-md-pull-7">
+				<p>aside</p>
+			</div>
+		</div>	<!-- End of Push and Pull -->
+	</div>  <!-- end of container -->    
 </body>
 </html>
